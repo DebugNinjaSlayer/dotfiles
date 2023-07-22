@@ -137,7 +137,17 @@ install_dotfiles () {
   done
 }
 
+install_ohmyzsh () {
+  if [ ! -d ~/.oh-my-zsh ]
+  then
+    info 'installing oh-my-zsh'
+    sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  fi
+}
+
+
 setup_gitconfig
+install_ohmyzsh
 install_dotfiles
 
 # If we're on a Mac, let's install and setup homebrew.
