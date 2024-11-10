@@ -12,7 +12,9 @@ then
 
   # Install the correct homebrew for each OS type
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
+  echo >> ~/.zprofile
+  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+  eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 # Upgrade homebrew
@@ -60,7 +62,6 @@ apps=(
   cloudflare-warp
   caffeine
   keyboard-cleaner
-  clashx-pro
   # media
   iina
   plex

@@ -49,12 +49,12 @@ mas signout
 read -p " - Please sign in your cn App Store account then press any key to continue..." ignore
 
 apps_cn=(
-  # 441258766   # Magnet
-  # 724472954   # Manico
+  441258766   # Magnet
+  724472954   # Manico
 )
 
-echo "Installing apps for cn account from mas-cli..."
-mas install ${apps_cn[@]}
-mas signout
+# echo "Installing apps for cn account from mas-cli..."
+# mas install ${apps_cn[@]}
+# mas signout
 
 exit 0
