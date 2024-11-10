@@ -40,6 +40,7 @@ apps_us=(
   1567748223  # SwiftyMenu
   1548711022  # Barbee
   1233965871  # ScreenBrush
+  6673731168  # sing-box VT
 )
 
 echo "Installing apps for us account from mas-cli..."
