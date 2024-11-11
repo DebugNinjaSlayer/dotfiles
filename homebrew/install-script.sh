@@ -53,6 +53,7 @@ apps=(
   notion
   obsidian
   swift-quit
+  chatgpt
   # system
   input-source-pro
   monitorcontrol
