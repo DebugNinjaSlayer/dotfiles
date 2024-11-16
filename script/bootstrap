@@ -145,8 +145,8 @@ install_ohmyzsh () {
   fi
 }
 
-
-setup_gitconfig
+# use mackup to backup the git configs
+# setup_gitconfig
 install_ohmyzsh
 install_dotfiles
 
