@@ -22,7 +22,6 @@ echo "› brew update"
 brew update
 
 brew tap afutured/openai-translator
-brew tap jesseduffield/lazydocker
 
 binaries=(
   cloudflared
@@ -30,7 +29,7 @@ binaries=(
   ffmpeg
   mas
   neovim
-  jesseduffield/lazydocker/lazydocker
+  lazydocker
   mackup
   rclone
   jenv
