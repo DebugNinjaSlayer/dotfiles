@@ -21,8 +21,6 @@ fi
 echo "› brew update"
 brew update
 
-brew tap afutured/openai-translator
-
 binaries=(
   cloudflared
   bitwarden-cli
@@ -45,7 +43,6 @@ apps=(
   anki
   google-chrome
   warp
-  openai-translator
   figma
   tor-browser
   baidunetdisk
@@ -85,6 +82,7 @@ brew install --cask --appdir="/Applications" ${apps[@]}
 fonts=(
   font-ibm-plex-mono
   font-sarasa-gothic
+  font-maple-mono-nf-cn
 )
 
 echo "Installing fonts..."
